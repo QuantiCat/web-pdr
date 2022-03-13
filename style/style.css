@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Montserrat:wght@100;200&family=Roboto:wght@100&display=swap');
+html {  background-color: black;
+}
+
+.login {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.white-space {
+  display: none;
+}
+
+.translate {
+  text-align: right;
+  float: right;
+  color: white;
+}
+
+.blogpost{
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+pre{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.post{
+  color: white;
+  text-align: justify;
+  text-align-last: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.sidebar {
+  float: none;
+  padding: 10px;
+  margin-left: max(30%);
+  margin-left: min(20px);
+  margin-right: max(30%);
+  margin-right: min(20px);
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+}
+
+.homepage-title {
+  color: white;
+  font-size: 3em;
+  text-align: left;
+  float: left;
+  padding-top: 6em;
+  padding-left: 2em;
+}
+
+.homepage-body {
+  background-image: url("../src/background.jpg");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  background-size: cover;
+  min-width: 100%;
+  max-height: 80%;
+}
+
+.credits {
+  float: right;
+  color: rgb(133, 133, 133);
+  text-align: right;
+  padding: 0px;
+}
+
+.modal-text{
+  color: black;
+}
+
+.post-button{
+  color: rgb(255, 255, 255);
+  background-color: #343A40;
+  padding: 1em;
+  border-radius: 5%;
+  float: right;
+}
+
+.post-button:hover{
+  color: lightgrey;
+  text-decoration: none;
+  background-color: #474747;
+}
+
+nav{
+  font-family: 'Bebas Neue', cursive;
+}
+
+article{
+  padding-top: 3em;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles-index{
+  background-color: white;
+  color: black;
+}
+
+.article-title{
+  color: black;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media all and (max-width: 700px) {
+  .homepage-body {
+    background-image: url("../src/background-mobile.jpg");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    max-height: 80%;
+  }
+
+  .homepage-title {
+    color: white;
+    font-size: 2em;
+    text-align: left;
+    float: left;
+    padding-top: 4em;
+    padding-left: 1em;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #474747;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
